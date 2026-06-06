@@ -1,0 +1,103 @@
+package com.example.db
+
+object SampleData {
+    val defaultListings = listOf(
+        ClothingListing(
+            title = "Bridal Maroon Embroidered Lehenga",
+            description = "Stunning traditional maroon lehenga with heavy zardozi embroidery. Worn only once for 4 hours, in pristine condition. Perfect for bridal or major wedding function.",
+            images = listOf("https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&fit=crop"),
+            category = "Wedding",
+            size = "M",
+            color = "Maroon & Gold",
+            location = "Lahore",
+            deliveryMethod = "Both",
+            dailyRent = 5000.0,
+            securityDeposit = 12000.0,
+            ownerName = "Amna",
+            ownerEmail = "amna@gmail.com",
+            ownerCnic = "35201-1234567-8",
+            status = "available"
+        ),
+        ClothingListing(
+            title = "Emerald Green Mehndi Kurta Set",
+            description = "Traditional green silk kurta coupled with beautifully detailed dupatta and trousers. Ideal for Mehndi or Mayon nights.",
+            images = listOf("https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=500&fit=crop"),
+            category = "Mehndi",
+            size = "L",
+            color = "Emerald Green",
+            location = "Karachi",
+            deliveryMethod = "Self Pickup",
+            dailyRent = 2200.0,
+            securityDeposit = 4000.0,
+            ownerName = "Moiz",
+            ownerEmail = "moiz@gmail.com",
+            ownerCnic = "42201-9876543-1",
+            status = "available"
+        ),
+        ClothingListing(
+            title = "Groom Walima Ivory Silk Sherwani",
+            description = "Premium Banarasi silk sherwani with subtle embroidery on collar and sleeves. Fitted, premium feel, with matching shawl included.",
+            images = listOf("https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=500&fit=crop"),
+            category = "Walima",
+            size = "XL",
+            color = "Ivory White",
+            location = "Islamabad",
+            deliveryMethod = "Home Delivery",
+            dailyRent = 4500.0,
+            securityDeposit = 7000.0,
+            ownerName = "Hamza",
+            ownerEmail = "hamza@gmail.com",
+            ownerCnic = "37405-1112223-9",
+            status = "available"
+        ),
+        ClothingListing(
+            title = "Zari Pastel Pink Engagement Saree",
+            description = "Elegant and lightweight georgette saree in pastel pink with real golden zari border. Easy to carry and highly photogenic.",
+            images = listOf("https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=500&fit=crop"),
+            category = "Engagement",
+            size = "S",
+            color = "Pastel Pink",
+            location = "Rawalpindi",
+            deliveryMethod = "Both",
+            dailyRent = 3000.0,
+            securityDeposit = 6000.0,
+            ownerName = "Nimra",
+            ownerEmail = "nimra@gmail.com",
+            ownerCnic = "35202-9998887-2",
+            status = "available"
+        ),
+        ClothingListing(
+            title = "Luxury Casual Chiffon Party Frock",
+            description = "Designer party frock with sky-blue print. Suitable for high class dinners, kitty parties, or semi-formal meetups. For purchase only.",
+            images = listOf("https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=500&fit=crop"),
+            category = "Casual",
+            size = "M",
+            color = "Sky Blue",
+            location = "Faisalabad",
+            deliveryMethod = "Both",
+            listingType = "Sale",
+            salePrice = 8500.0,
+            securityDeposit = 0.0,
+            ownerName = "Ayesha",
+            ownerEmail = "ayesha@gmail.com",
+            ownerCnic = "33100-5555554-1",
+            status = "available"
+        ),
+        ClothingListing(
+            title = "Embroidered Rose Gold Party Gown",
+            description = "Luxurious net gown featuring exquisite sequencing and embellishments. Floor length with premium lining underneath.",
+            images = listOf("https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=500&fit=crop"),
+            category = "Party",
+            size = "M",
+            color = "Rose Gold",
+            location = "Multan",
+            deliveryMethod = "Home Delivery",
+            dailyRent = 3500.0,
+            securityDeposit = 5000.0,
+            ownerName = "Zainab",
+            ownerEmail = "zainab@gmail.com",
+            ownerCnic = "36302-3333333-3",
+            status = "available"
+        )
+    )
+}

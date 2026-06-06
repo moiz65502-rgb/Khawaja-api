@@ -1,0 +1,6 @@
+{
+  "name": "Libas",
+  "description": "Pakistan ka No.1 Dress Rental & Sale Marketplace. Wear elite wedding, formal, party, and casual dresses on rent or buy safely.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
